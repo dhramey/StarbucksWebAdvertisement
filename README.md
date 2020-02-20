@@ -1,3 +1,3 @@
 # StarbucksWebAdvertisement
  
-<img src="images/StarbucksWebAdAnimation" />
+<img src="images/StarbucksWebAdAnimation.png" />

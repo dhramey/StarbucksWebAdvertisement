@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Daniel Ramey Designs - WDV 205 Advertisement </title>
+    	<!--
+		Author: Daniel Ramey
+		Date Created: 2018
+    	-->
+
+	<meta name="description" content="Daniel Ramey Designs is a web presence reflecting the art and works of Daniel Ramey.
+		It is an amalgam of sketches, computer graphics, and projects created over the past couple of years.
+		Thank you for looking!" />
+
+	<meta name="keywords" content="Daniel Ramey, homepage, art, graphics,
+		web design, sketches, photoshop, illustrator, indesign html, css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="css/wdv205advertisement.css">
+	<link rel="stylesheet" href="scss/wdv205advertisement.scss"> 
+	
+<style>
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+</style>
+</head>
+
+<body>
+	
+	<main>
+		<section>
+			<div class="steam1"> &#8768; </div>
+			<div class="steam2"> &#8768; </div>
+			<div class="steam3"> &#8768; </div>
+			<div class="steam4"> &#8768; </div>
+			<div class="steam5"> &#8768; </div>
+
+			<img class="mug" src="images/coffeecup.png" />
+
+			<a id="hide" class="close" href="#"> &#9747; </a>
+			
+			<div class="adcontainer2">
+				<img src="images/StarbucksCoffee-logo-green.png" />
+				<h3> Make every day a coffee day <br /> :) </h3>
+				<h4> Sign up for delicious deals! </h4>
+				<a href="#" class="button"> I &hearts; Coffee </a>
+			</div>
+
+			<div class="adcontainer1">
+				<div class="circle"></div>
+				<img class="image" src="images/cbeans.jpg" />
+			</div>
+		</section>
+	</main>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#hide").click(function(){
+			$("section").hide();
+		});
+	});
+	
+	setTimeout(function() {
+  		$('section').fadeOut('slow');}, 60000);
+	</script>
+</body>
+</html>
